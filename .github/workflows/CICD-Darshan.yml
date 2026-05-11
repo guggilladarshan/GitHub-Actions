@@ -1,10 +1,13 @@
-name: hello 
-on: workflow_dispatch
+name: Darshan
+on: workflow
 jobs:
-  hello:
+  Hello:
     runs-on: ubuntu-latest
     steps:
-      - name: myfirst
-        run: echo "myfirst one"
-        
+      - name: Hello Word
+      - run: echo "my one ra"
+
+
+
+
       
