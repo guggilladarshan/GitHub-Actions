@@ -1,13 +1,23 @@
-name: 1234
+name: Hello world
 
 on: workflow_dispatch
 
 jobs:
-  Hello:
+  build:
     runs-on: ubuntu-latest
-    
     steps:
-      - name: 1,2,3
-        run: echo "ontari poratam"
+      - name: build steps
+        run: echo "my-build"
+  test: 
+     runs-on: ubuntu-latest
+     steps:
+       - name: test-one
+         run: echo "my-test"
 
-      
+  deploy:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Deploy-one
+         run: echo "my-deploy"
+       
+  
