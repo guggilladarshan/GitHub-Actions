@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: build steps
-        run: echo "my-name, ${{ vars.MY-Name }}"
+        run: echo "my-name, ${{ vars.MY_Name }}"
 
        
   
