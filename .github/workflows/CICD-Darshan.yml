@@ -1,5 +1,5 @@
 name: Darshan
-on: workflow
+on: workflow_dispatch
 jobs:
   Hello:
     runs-on: ubuntu-latest
