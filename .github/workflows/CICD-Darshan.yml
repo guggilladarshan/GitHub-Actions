@@ -1,13 +1,13 @@
-name: Darshan
+name: 1234
+
 on: workflow_dispatch
+
 jobs:
   Hello:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: HelloWord
-        run: echo "my one ra"
-
-
-
+      - name: 1,2,3
+        run: echo "ontari poratam"
 
       
