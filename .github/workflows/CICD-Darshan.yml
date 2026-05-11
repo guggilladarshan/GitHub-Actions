@@ -4,8 +4,8 @@ jobs:
   Hello:
     runs-on: ubuntu-latest
     steps:
-      - name: Hello Word
-      - run: echo "my one ra"
+      - name: HelloWord
+        run: echo "my one ra"
 
 
 
